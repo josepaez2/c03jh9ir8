@@ -1,0 +1,47 @@
+
+<%= form_for @actor do |f| %>
+ 
+  <p>
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>
+  </p>
+ 
+  <p>
+    <%= f.label :bio %><br>
+    <%= f.text_area :bio %>
+  </p>
+
+  <p>
+    <%= f.label :birth_date %><br>
+    <%= f.text_area :birth_date %>
+  </p>
+ 
+   <p>
+    <%= f.label :birth_place %><br>
+    <%= f.text_area :birth_place %>
+  </p>
+
+    <p>
+    <%= f.label :image_url %><br>
+    <%= f.text_area :image_url %>
+  </p>
+
+    <p>
+    <%= f.label :alive %><br>
+    <%= f.text_area :alive %>
+  </p>
+
+    <p>
+    <%= f.label :death_date %><br>
+    <%= f.text_area :death_date %>
+  </p>
+
+      <p>
+    <%= f.label :death_place %><br>
+    <%= f.text_area :death_place %>
+  </p>
+  <p>
+    <%= f.submit %>
+  </p>
+ 
+<% end %>
